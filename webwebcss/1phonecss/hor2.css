@@ -1,0 +1,210 @@
+@media (max-width: 480px){
+.hor2 {
+    vertical-align: middle;
+    display: flex;
+    flex-direction: column;
+    margin: 6% 0 0 0
+  }
+        .ver1 {
+            flex: 1;
+        }
+                .titlebox {
+                    margin: 8% 0 40px 0;
+                    display: block;
+                    width: 100%;
+                    position: relative
+                } 
+                    .zupa {
+                        float: center;
+                        text-align: center;
+                        position: relative;
+                        font-family: "Alfa Slab One";
+                        font-size: 60px;
+                        margin: 0 0 5px 0;
+                        text-shadow: -10px 5px 0 rgb(247, 157, 247);
+                    } 
+                        .pierdek {
+                            position: absolute;
+                            background-color: rgba(255, 255, 0, 0.50);
+                            color: black;
+                            left: 15px;
+                            top: 5px;
+                            font-size: 20px;
+                        }
+                    .mlem {
+                        position: absolute;
+                        left: 8%;
+                        top: 30%;
+                        font-size: xx-small;
+                        background-color: #d5d5d5; 
+                        border-color: magenta;
+                        z-index: 100;
+                      }
+                        .mlem:hover {
+                            background-color: black;
+                            border-color: black;
+                            border-style: solid;
+                            height: 600px;
+                            box-shadow: 10px -10px 20px grey;
+                            transition: box-shadow 0.10s;
+                        }
+                        .mlem:active {
+                            background-color: plum;
+                            border-color: plum;
+                            border-style: solid;
+                        }
+                .metry {
+                    color: darkmagenta;
+                    }
+                    .metry:hover {
+                        color: magenta;
+                        font-weight: bold;
+                        cursor: grab;
+                        transition: color 0.20s, font-weight 0.20s;
+                    }
+                .guziki {
+                    float: center;
+                }
+                    .siur {
+                        background-color: plum;
+                        color: rgb(36, 51, 10);
+                        font-family: 'Courier New', Courier, monospace;
+                        border-radius: 10cm;
+                        border-color: darkmagenta;
+                        border-style: solid;
+                        padding: 10px;
+                        cursor: grab;
+                        border-width: 2px;
+                        font-weight: bold;
+                        margin-left: 20px;
+                        margin-top: 30px;
+                        transition: opacity 2s, padding-left 1s, padding-right 1s;
+                        box-shadow: 5px 8px 0 #654965;
+                    }
+                        .siur:hover {
+                            opacity: 0.5;
+                            padding-left: 35px;
+                            padding-right: 35px;
+                        }
+                        .siur:active {
+                            background-color: black;
+                            border-color: black;
+                            border-style: solid;
+                        }
+                    .piwo {
+                        box-shadow: 0 0 50px rgba(255, 255, 0, 0.50);
+                        width: 125px;
+                        background-color: rgba(255, 255, 0, 0.50);
+                        transition: color 1.5s, font-size 1s, width 2s;
+                        display: inline-block;
+                        vertical-align: bottom;
+                        margin-left: 40px;
+                        text-decoration: none;
+                        font-family: "Comic Sans MS";
+                        font-weight: bold;
+                        border-radius: 10px;
+                    }
+                        .piwo:hover {
+                            color: lime;
+                            font-size: 30px;
+                            width: 140px;
+                        }
+                .helmdiv {
+                    background-color: rgb(241, 250, 255);
+                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+                    padding: 20px 0 20px 0;
+                    border-radius: 30px;
+                }
+                    .helmimg {
+                        width: 40%;
+                        object-position: center;
+                        margin: 10px 10px 10px;
+                        border-radius: 10px 40px 10px 40px;
+                    }
+                    .helmimg2 {
+                        display: none
+                    }
+
+        .ver2 {
+            flex: 1;
+            display: inline-block;
+            overflow: hidden;
+            min-height: 400px;
+            margin-left: 0px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            background-color: rgb(241, 250, 255);
+            box-shadow: 0 1.5px 10px rgba(0, 0, 0, 0.8);
+            border-radius: 30px;
+            padding: 30px;
+            position: relative
+        }
+                .flexi {
+                    display: flex;
+                    overflow: hidden;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    right: 30px;
+                    left: 30px;
+                    height: 100%;
+                    width: 287px;
+                    position: absolute
+                    }
+                        .profil {
+                            flex: 1;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            height: 83.833px;
+                            background-color: rgb(222, 236, 245);
+                            border-width: 1px;
+                            border-style: solid;
+                            border-color: #929ba1;
+                            margin-top: 10px;
+                            margin-bottom: 20px;
+                            text-align: left;
+                            transition: opacity 0.2s, box-shadow 0.1s;
+                            padding: 12px;
+                            border-radius: 5px;
+                        }
+                                    .profil:hover {
+                                        opacity: 0.7;
+                                        box-shadow: -2px 2px #654965;
+                                    }
+                                    .profil:active {
+                                        background-color: #bfcbd2;
+                                    }
+                            .awatar {
+                                text-align: center;
+                                vertical-align: middle;
+                                display: inline-block;
+                                width: 30%;
+                                height: 100%
+                            }
+                                    .pfp {
+                                        width: 100%;
+                                        object-fit: cover;
+                                        border-radius: 50px;
+                                    }
+                            .opis {
+                                display: inline-block;
+                                vertical-align: top;
+                                height: 100%;
+                            }
+                                    .nick {
+                                        height: 40%;
+                                        font-size: 90%;
+                                        color: #3b4024;
+                                        font-weight: bold;
+                                        text-align: left;
+                                        margin-left: 10px
+                                    }
+                                    .upvotes {
+                                        height: 30%;
+                                        text-align: left;
+                                        margin-left: 10px
+                                    }
+                                    .dom {
+                                        text-align: left;
+                                        margin-left: 10px
+                                    } }

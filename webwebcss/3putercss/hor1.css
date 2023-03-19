@@ -1,0 +1,33 @@
+@media (min-width: 1500px) {
+.szukdiv {
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+    background-color: rgb(241, 250, 255);
+    box-shadow: 0 1.5px 10px rgba(0, 0, 0, 0.8);
+    margin: 0 0 15px 0;
+    border-radius: 0 0 30px 30px;
+  }
+  .szuk {
+    text-align: left;
+    margin: 10px 30px 0 10px;
+    background-color: plum;
+    width: 23.5%;
+    border-color: darkmagenta;
+    border-style: solid;
+    border-width: 2px;
+    padding-left: 10px;
+    border-radius: 10px;
+  }
+  .szuk:focus {
+    outline-style: groove;
+  }
+  .szukp {
+    text-align: right;
+  }
+  .szuk::placeholder {
+    font-size: 40px;
+  } }
